@@ -1,23 +1,11 @@
-var programming_languages = [
-	"python",
-	"javascript",
-	"mongodb",
-	"json",
-	"java",
-	"html",
-	"css",
-  "c",
-	"csharp",
-	"golang",
-	"kotlin",
-	"php",
-	"sql",
-  "ruby",
-  "fortran"
+var languages = [
+	"English",
+	"Hindi",
+	"Arabic"
 ]
 
 function randomWord() {
-  return programming_languages[Math.floor(Math.random() * programming_languages.length)]
+  return languages[Math.floor(Math.random() * languages.length)]
 }
 
 export { randomWord }
