@@ -1,7 +1,13 @@
 var languages = [
-	"English",
-	"Hindi",
-	"Arabic"
+	"english",
+	"hindi",
+	"arabic",
+	"french",
+	"russian",
+	"malayalam",
+	"german",
+	"tamil",
+	"odia"
 ]
 
 function randomWord() {

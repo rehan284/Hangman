@@ -38,7 +38,7 @@ class Hangman extends Component {
   }
 
   generateButtons() {
-    return "abcdefghjklmnopqrstuvwxyz".split("").map(letter => (
+    return "abcdefghijklmnopqrstuvwxyz".split("").map(letter => (
       <button
         class='btn btn-lg btn-primary m-2'
         key={letter}
@@ -80,7 +80,7 @@ class Hangman extends Component {
           <img src={this.props.images[this.state.mistake]} alt=""/>
         </div>
         <div className="text-center">
-          <p>Guess the Programming Language:</p>
+          <p>Guess the Language:</p>
           <p>
             {!gameOver ? this.guessedWord() : this.state.answer}
           </p>
